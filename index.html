@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>P</span>ort<span>F</span>olio.</h1>
+                <ul id="sidemenu">
+                    <li><a class="menu-list" href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a class="menu-list" href="#about" onclick="closemenu()">About</a></li>
+                    <li><a class="menu-list" href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a class="menu-list" href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                    <li><a class="menu-list" href="#contact" onclick="closemenu()">Contact</a></li>
+                    <img class="cross-icon" src="image/cross.jpg" onclick="closemenu()">
+                </ul>
+                <img class="menu-icon" src="image/menu.jpg" onclick="openmenu()">
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h2>Hello, I'm<span></span></h2>
+                <h2>Mamata Patra<span></span></h2>
+                <h2>From West Bengal, India<span></span></h2>
+            </div>
+        </div>
+    </div>
+    <!-- End header section -->
+
+    <!-- About section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/myImage.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fuga soluta officia exercitationem,
+                        nesciunt corporis quibusdam illo quos ullam et iure voluptatum inventore voluptatem vero?
+                        Reprehenderit reiciendis laudantium esse ab, ex nobis, omnis a eius, aperiam doloribus quis
+                        neque totam. Sunt rem quam doloribus tenetur molestiae voluptas totam fugit ullam!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Lorem ipsum dolor sit Amet Consectetur</li>
+                            <li><span>2019 - 2021</span><br>Team work under Proffessor</li>
+                            <li><span>2017- 2019</span><br>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Designing Web/App interfaces</li>
+                            <li><span>2016</span><br>Web App Development</li>
+                            <li><span>2014</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------- Services--------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="image/code.jpg" class="service-image">
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, incidunt? Quo eveniet et nulla
+                        consectetur hic reiciendis labore eligendi quibusdam iure culpa? Minus.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <img src="image/crop.jpg" class="service-image">
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, incidunt? Quo eveniet et nulla
+                        consectetur hic reiciendis labore eligendi quibusdam iure culpa? Minus.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i><img src="image/app.jpg" class="service-image"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, incidunt? Quo eveniet et nulla
+                        consectetur hic reiciendis labore eligendi quibusdam iure culpa? Minus.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------portfolio-------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="image/work-3.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, laborum pariatur? Blanditiis
+                            ab ad perspiciatis molestiae</p>
+                        <a href="#"><img src="image/link.jpg"></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-2.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum ipsum sunt consequuntur
+                            sit eligendi eveniet aspernatur.</p>
+                        <a href="#"><img src="image/link.jpg"></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-3.jpg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat consequatur quae
+                            exercitationem, delectus in beatae nesciunt consequuntur hic!</p>
+                        <a href="#"><img src="image/link.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------- Contact ------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="mail">
+                        <img src="image/email.jpg">
+                        <p>belapatra27@gmail.com</p>
+                    </div>
+                    <div class="phn">
+                        <img src="image/phone.jpg">
+                        <p>9547381705</p>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><img src="image/facebook.jpg"></a>
+                        <a href="https://instagram.com/"><img src="image/instagram.jpg"></a>
+                        <a href="https://twitter.com/"><img src="image/twitter.jpg"></a>
+                        <a href="https://behance.com/"><img src="image/behance.jpg"></a>
+                    </div>
+                    <a href="image/Msc_cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <a class="signIn" href="login2.html" target="_blank">Sign In</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Mamata in 2022.</p>
+        </div>
+    </div>
+
+    <script>
+
+        // --------about section--------
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");   // remove the red line.
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");   // remove skills list.
+            }
+            event.currentTarget.classList.add("active-link");    // current link a add the red line.
+
+            document.getElementById(tabname).classList.add("active-tab")   // Here tabname means the current links, mane je link a click korbo(skills/experience/education) seta tabname er jaygay hbe. Then there add the active tag means skill/education/experience list.
+        }
+        // -------- End About---------
+
+        //---------side menu----------
+
+        var sidemenu = document.getElementById("sidemenu");
+        var menulist = document.getElementsByClassName("menu-list")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-100%";
+            menulist.style.right = "-100%";
+        }
+
+
+    </script>
+</body>
+
+</html>
